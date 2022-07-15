@@ -12,11 +12,13 @@
       <div class="navigation">
         <nav>
           <ul>
-            
+            <li v-for="link,index in navLinks" :key="index">
+              <a :href="link.url">{{link.name}}</a>
+            </li>
           </ul>
 
           <span class="btn color-btn">
-            <a href="#">learn more</a>
+            <a href="#">make appointment</a>
           </span>
         </nav>
       </div>
@@ -48,6 +50,7 @@ export default {
       introMessage: 'Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health focuses on you as if it was our own family.'
     }
   },
+  props: {navLinks: Array}
 }
 </script>
 
@@ -66,7 +69,26 @@ export default {
       justify-content: space-between;
       padding: 20px 0;
       .logo {
-        width: 200px;
+        width: 250px;
+      }
+    }
+    .navigation {
+      display: flex;
+      font-size: 12px;
+      ul {
+        display: inline-flex;
+        li {
+          list-style-type: none;
+          margin: 0 20px;
+          a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: inherit;
+          }
+          &:hover  {
+          color: $brand-main-color;
+        } 
+        }
       }
     }
     .jumbotron {

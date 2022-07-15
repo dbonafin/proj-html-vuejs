@@ -9,7 +9,7 @@
 
     <!-- Here will be the header section (header+jumbotron) -->
     <header>
-      <PageHeader/>
+      <PageHeader :navLinks="navLinks"/>
     </header>
 
     <!-- Here will be the main section -->
@@ -53,7 +53,29 @@
 
   export default {
     name: 'App',
-    components: { PageHeader}
+    components: { PageHeader},
+    data() {
+      return {
+        navLinks: [
+          {
+            name: 'home',
+            url: '#'
+          },
+          {
+            name: 'about',
+            url: '#'
+          },
+          {
+            name: 'departments',
+            url: '#'
+          },
+          {
+            name: 'articles',
+            url: '#'
+          },
+          ]
+      }
+    },
   }
 
 </script>
