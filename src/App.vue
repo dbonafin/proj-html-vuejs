@@ -4,12 +4,12 @@
 
     <!-- Common -->
     <!-- Header nav and footer medical departments will be dynamic (props) -->
-    <!-- Header, footer, 3 columns section with different bg colors - width 80% margin 0 auto -->
+    <!-- Header, footer, 3 columns section with different bg colors - width 90% margin 0 auto -->
     <!-- All other sections - width  60% margin 0 auto  -->
 
     <!-- Here will be the header section (header+jumbotron) -->
     <header>
-      <PageHeader msg="Reset done" />
+      <PageHeader/>
     </header>
 
     <!-- Here will be the main section -->
