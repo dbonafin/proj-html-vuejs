@@ -49,6 +49,7 @@
 
 <script>
 
+  import NavLinks from './data/NavLinks.json';
   import PageHeader from './components/PageHeader.vue';
 
   export default {
@@ -56,26 +57,9 @@
     components: { PageHeader},
     data() {
       return {
-        navLinks: [
-          {
-            name: 'home',
-            url: '#'
-          },
-          {
-            name: 'about',
-            url: '#'
-          },
-          {
-            name: 'departments',
-            url: '#'
-          },
-          {
-            name: 'articles',
-            url: '#'
-          },
-          ]
+        navLinks: NavLinks
       }
-    },
+    }
   }
 
 </script>

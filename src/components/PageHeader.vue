@@ -12,7 +12,7 @@
       <div class="navigation">
         <nav>
           <ul>
-            <li v-for="link,index in navLinks" :key="index">
+            <li v-for="(link,index) in navLinks" :key="index">
               <a :href="link.url">{{link.name}}</a>
             </li>
           </ul>
@@ -43,6 +43,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'ResetDone',
   data() {
@@ -79,13 +80,13 @@ export default {
         display: inline-flex;
         li {
           list-style-type: none;
-          margin: 0 20px;
+          margin: 0 15px;
           a {
             text-transform: uppercase;
             text-decoration: none;
             color: inherit;
           }
-          &:hover  {
+          &:first-child  {
           color: $brand-main-color;
         } 
         }
