@@ -24,11 +24,13 @@ body {
 
 .large-container {
     width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .small-container {
     width: 60%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 

@@ -1,62 +1,60 @@
 <template>
 
-    <div class="intro-wrapper">
-        <div class="small-container">
+    <div class="small-container">
 
-            <div class="top-area">
-                <h2>Welcome to Avada Health</h2>
+        <div class="top-area">
+            <h2>Welcome to Avada Health</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima ex officiis laudantium, expedita similique velit.
+            </p>
+        </div>
+
+        <div class="bottom-area">
+
+            <div>
+                <img src="../assets/images/icon-1.png" alt="appointments icon">
+
+                <h3>same day appointments</h3>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima ex officiis laudantium, expedita similique velit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 </p>
             </div>
 
-            <div class="bottom-area">
+            <div>
+                <img src="../assets/images/icon-2.png" alt="facilities icon">
 
-                <div>
-                    <img src="../assets/images/icon-1.png" alt="appointments icon">
+                <h3>world class facilities</h3>
 
-                    <h3>same day appointments</h3>
-
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                </div>
-
-               <div>
-                    <img src="../assets/images/icon-2.png" alt="facilities icon">
-
-                    <h3>world class facilities</h3>
-
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-
-                <div>
-                    <img src="../assets/images/icon-3.png" alt="doctors icon">
-
-                    <h3>expert doctors</h3>
-
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                </div>
-
-                <div>
-                    <img src="../assets/images/icon-4.png" alt="therapies icon">
-
-                    <h3>complementary therapies</h3>
-
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
-                </div>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
             </div>
 
-        </div>
-    </div>
+            <div>
+                <img src="../assets/images/icon-3.png" alt="doctors icon">
 
+                <h3>expert doctors</h3>
+
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+
+            <div>
+                <img src="../assets/images/icon-4.png" alt="therapies icon">
+
+                <h3>complementary therapies</h3>
+
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
 </template>
 
 <script>

@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   @import "../style/common.scss";
 
@@ -96,7 +96,7 @@ export default {
     .jumbotron {
       width: 33%;
       position: absolute;
-      top: 240px;
+      top: 245px;
       left: 390px;
       h2 {
         font-size: 50px;

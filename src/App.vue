@@ -17,9 +17,6 @@
 
       <MainSection/>
 
-      <!-- Meet our doctors section -->
-      <!-- icon, title, text and 3 doctor info cards (picture, title, text, socials) -->
-
       <!-- Our health services section -->
       <!-- icon, title, text and 3 columns(X2) (img, title, text) -->
 

@@ -2,8 +2,11 @@
 
     <section>
         <!-- Welcome to avada intro section -->
-        <!-- title, text and 4 columns (img, title, text) -->
         <BrandIntroduction/>
+
+        <!-- Meet our doctors section -->
+        <!-- icon, title, text and 3 doctor info cards (picture, title, text, socials) -->
+        <DoctorsSection/>
 
     </section>
 
@@ -12,10 +15,11 @@
 <script>
 
     import BrandIntroduction from "./BrandIntroduction.vue";
+    import DoctorsSection from "./DoctorsSection.vue";
 
-        export default {
+    export default {
         name: "MainSection",
-        components: { BrandIntroduction }
+        components: { BrandIntroduction, DoctorsSection }
     }
 
 </script>
