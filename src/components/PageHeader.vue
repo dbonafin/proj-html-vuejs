@@ -76,6 +76,7 @@ export default {
     .navigation {
       display: flex;
       font-size: 12px;
+      transform: rotateX(40deg);
       ul {
         display: inline-flex;
         li {
@@ -99,6 +100,9 @@ export default {
       left: 390px;
       h2 {
         font-size: 50px;
+        span {
+          font-size: 50px;
+        }
       }
       p {
         margin: 20px 0;
