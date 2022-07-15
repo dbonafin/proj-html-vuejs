@@ -16,8 +16,38 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-h1 {
-    //test
-    color: $txt-main-color;
-    font-weight: 200;   
+* {
+    font-weight: 200 ;
+}
+
+.large-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.small-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+// Utilities
+.main-color-text {
+    color: $brand-main-color;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+
+span a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
 }
