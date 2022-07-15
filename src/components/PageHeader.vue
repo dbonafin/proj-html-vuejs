@@ -45,7 +45,7 @@
 <script>
 
 export default {
-  name: 'ResetDone',
+  name: 'PageHeader',
   data() {
     return {
       introMessage: 'Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health focuses on you as if it was our own family.'

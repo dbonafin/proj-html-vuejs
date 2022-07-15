@@ -14,8 +14,8 @@
 
     <!-- Here will be the main section -->
     <main>
-      <!-- Welcome to avada intro section -->
-      <!-- title, text and 4 columns (img, title, text) -->
+
+      <MainSection/>
 
       <!-- Meet our doctors section -->
       <!-- icon, title, text and 3 doctor info cards (picture, title, text, socials) -->
@@ -51,10 +51,11 @@
 
   import NavLinks from './data/NavLinks.json';
   import PageHeader from './components/PageHeader.vue';
+  import MainSection from './components/MainSection.vue';
 
   export default {
     name: 'App',
-    components: { PageHeader},
+    components: { PageHeader, MainSection },
     data() {
       return {
         navLinks: NavLinks
@@ -66,6 +67,6 @@
 
 <style lang="scss">
 
-  @import "./style/common.scss"
-
+  @import "./style/common.scss";
+  
 </style>
