@@ -17,9 +17,6 @@
 
       <MainSection/>
 
-      <!-- Our health services section -->
-      <!-- icon, title, text and 3 columns(X2) (img, title, text) -->
-
       <!-- Tour our facilities -->
       <!-- icon, title, :after div, text and play image -->
 

@@ -5,8 +5,10 @@
         <BrandIntroduction/>
 
         <!-- Meet our doctors section -->
-        <!-- icon, title, text and 3 doctor info cards (picture, title, text, socials) -->
         <DoctorsSection/>
+
+        <!-- Our health services section -->
+        <HealthServices/>
 
     </section>
 
@@ -16,10 +18,15 @@
 
     import BrandIntroduction from "./BrandIntroduction.vue";
     import DoctorsSection from "./DoctorsSection.vue";
+    import HealthServices from "./HealthServices.vue";
 
     export default {
         name: "MainSection",
-        components: { BrandIntroduction, DoctorsSection }
+        components: {
+        BrandIntroduction,
+        DoctorsSection,
+        HealthServices
+        }
     }
 
 </script>
