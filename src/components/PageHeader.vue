@@ -28,7 +28,7 @@
     <!-- Jumbotron area -->
     <div class="jumbotron">
       <h2>
-        Caring <span class="main-color-text">For Life</span>
+        Caring<span class="main-color-text">For Life</span>
       </h2>
 
       <p>{{ introMessage }}</p>
@@ -64,7 +64,7 @@ export default {
     color: $txt-secondary-color;
     background-size: cover;
     background-image: url('../assets/images/header-image-homepage.jpg');
-    height: 690px;
+    height: 620px;
     .top-header {
       display: flex;
       justify-content: space-between;
@@ -96,8 +96,12 @@ export default {
     .jumbotron {
       width: 33%;
       position: absolute;
-      top: 245px;
-      left: 390px;
+      top: 220px;
+      left: 335px;
+      :last-child {
+        transform: rotateX(40deg);
+        padding: 8px 15px;
+      }
       h2 {
         font-size: 50px;
         span {
@@ -105,7 +109,8 @@ export default {
         }
       }
       p {
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
       }
     }
     .color-btn {

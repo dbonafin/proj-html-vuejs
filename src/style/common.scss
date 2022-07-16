@@ -55,4 +55,33 @@ span a {
     color: inherit;
 }
 
+// Social media icons
+.social-icon {
+    border-radius: 3px;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.fb-icon {
+    background-color: #3c5999;
+}
+
+.twt-icon {
+    background-color: #449ebf;
+}
+
+.insta-icon {
+    background-color: #3d729b;
+}
+
+.fa-facebook-f, 
+.fa-twitter,
+.fa-instagram {
+    color: $bg-main-color;
+}
+
 
