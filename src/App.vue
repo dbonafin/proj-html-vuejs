@@ -12,13 +12,10 @@
       <PageHeader :navLinks="navLinks"/>
     </header>
 
-    <!-- Here will be the main section -->
+    <!-- Here will be the global main section (all the main sections are sub-components of MainSection) -->
     <main>
 
       <MainSection/>
-
-      <!-- Tour our facilities -->
-      <!-- icon, title, :after div, text and play image -->
 
       <!-- 3 columns section with different bg colors -->
       <!-- title, image, text and "button" -->

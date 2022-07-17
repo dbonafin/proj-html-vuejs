@@ -10,6 +10,9 @@
         <!-- Our health services section -->
         <HealthServices/>
 
+        <!-- Tour our facilities -->
+        <!-- icon, title, :after div, text and play image -->
+        <FacilitiesTour/>
     </section>
 
 </template>
@@ -19,18 +22,19 @@
     import BrandIntroduction from "./BrandIntroduction.vue";
     import DoctorsSection from "./DoctorsSection.vue";
     import HealthServices from "./HealthServices.vue";
+    import FacilitiesTour from "./FacilitiesTour.vue";
 
     export default {
         name: "MainSection",
         components: {
-        BrandIntroduction,
-        DoctorsSection,
-        HealthServices
+            BrandIntroduction,
+            DoctorsSection,
+            HealthServices,
+            FacilitiesTour
         }
     }
 
 </script>
 
 <style lang="scss">
-    
 </style>

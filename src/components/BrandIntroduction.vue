@@ -68,7 +68,6 @@
 <style lang="scss" scoped>
 
     @import "../style/common.scss";
-
     .small-container {
         padding: 80px 0;
         color: $txt-main-color;
