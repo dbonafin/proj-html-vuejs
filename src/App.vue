@@ -2,11 +2,6 @@
 
   <div id="app">
 
-    <!-- Common -->
-    <!-- Header nav and footer medical departments will be dynamic (props) -->
-    <!-- Header, footer, 3 columns section with different bg colors - width 90% margin 0 auto -->
-    <!-- All other sections - width  60% margin 0 auto  -->
-
     <!-- Here will be the header section (header+jumbotron) -->
     <header>
       <PageHeader :navLinks="navLinks"/>
@@ -19,8 +14,6 @@
 
     <!-- Here will be the footer section -->
     <footer>
-      <!-- Top footer (three columns) -->
-      <!-- Bottom footer (ul inline-block) -->
       <PageFooter :footerLinks="footerLinks"/>
     </footer>
 

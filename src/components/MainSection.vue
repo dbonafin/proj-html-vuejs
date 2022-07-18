@@ -13,7 +13,7 @@
         <!-- Tour our facilities -->
         <FacilitiesTour/>
 
-        <!-- 3 columns section with different bg colors -->
+        <!-- Three columns section with different bg colors -->
         <ThreeDiffCols/>
 
         <!-- Make an appointment section -->
@@ -33,19 +33,19 @@
     import FacilitiesTour from "./FacilitiesTour.vue";
     import ThreeDiffCols from "./ThreeDiffCols.vue";
     import MakeAppointment from "./MakeAppointment.vue";
-import BrandPartners from "./BrandPartners.vue";
+    import BrandPartners from "./BrandPartners.vue";
 
     export default {
         name: "MainSection",
         components: {
-    BrandIntroduction,
-    DoctorsSection,
-    HealthServices,
-    FacilitiesTour,
-    ThreeDiffCols,
-    MakeAppointment,
-    BrandPartners
-}
+            BrandIntroduction,
+            DoctorsSection,
+            HealthServices,
+            FacilitiesTour,
+            ThreeDiffCols,
+            MakeAppointment,
+            BrandPartners
+        }
     }
 
 </script>

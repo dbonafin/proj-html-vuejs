@@ -130,7 +130,7 @@
                 display: block;
                 width: 200px;
                 height: 1px;
-                background-color: #7c858f;
+                background-color: #bcbcbd;
                 margin: 20px auto;
             }
         }

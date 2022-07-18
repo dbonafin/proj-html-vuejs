@@ -78,9 +78,14 @@ span a {
     background-color: #3d729b;
 }
 
+.yt-icon {
+    background-color: #cc201f;
+}
+
 .fa-facebook-f, 
 .fa-twitter,
-.fa-instagram {
+.fa-instagram,
+.yt-icon {
     color: $bg-main-color;
 }
 
