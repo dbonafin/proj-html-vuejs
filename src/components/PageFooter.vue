@@ -1,33 +1,39 @@
 <template>
   
-  <div class="total-footer">
+    <div class="total-footer">
 
-    <!-- Top area of the header -->
-    <div class="top-footer large-container">
+        <!-- Top area of the header -->
+        <div class="top-footer large-container">
 
-        <div class="informations col">
-            <div class="logo">
-                <img src="../assets/images/medical_logo_1x_dark.png" alt="avada health logo">
+            <div class="informations col">
+                <div class="logo">
+                    <img src="../assets/images/medical_logo_1x_dark.png" alt="avada health logo">
+                </div>
+            </div>
+
+            <div class="contacts col">
+                via garibaldi 31
+            </div>
+
+            <div class="navigation col">
+                
+                <ul>
+                    <li v-for="(link,index) in footerLinks" :key="index">
+                        <a :href="link.url">{{link.name}}</a>
+                    </li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <div class="bottom-footer">
+            <div class="large-container">
+                Copyright
             </div>
         </div>
 
-        <div class="contacts col">
-            via garibaldi 31
-        </div>
-
-        <div class="navigation col">
-            
-            <ul>
-                <li v-for="(link,index) in footerLinks" :key="index">
-                    <a :href="link.url">{{link.name}}</a>
-                </li>
-            </ul>
-            
-        </div>
-
     </div>
-
-  </div>
 
 </template>
 
@@ -47,11 +53,11 @@ export default {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
-        img {
-        width: 200px;
-        }
         .col {
             width: calc(100% / 3);
+            img {
+                width: 200px;
+            }
         }
         .navigation {
             display: flex;
@@ -68,6 +74,10 @@ export default {
                 }
             }
         }   
+    }
+    .bottom-footer {
+        background-color: $bg-secondary-color;
+        padding: 10px 0;
     }
 
 </style>
