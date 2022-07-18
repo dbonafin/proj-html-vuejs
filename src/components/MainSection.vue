@@ -14,8 +14,11 @@
         <FacilitiesTour/>
 
         <!-- 3 columns section with different bg colors -->
-        <!-- title, image, text and "button" -->
         <ThreeDiffCols/>
+
+        <!-- Make an appointment section -->
+        <!-- title, :after div, text, info request form and "button" -->
+        <MakeAppointment/>
     </section>
     
 </template>
@@ -26,17 +29,19 @@
     import DoctorsSection from "./DoctorsSection.vue";
     import HealthServices from "./HealthServices.vue";
     import FacilitiesTour from "./FacilitiesTour.vue";
-import ThreeDiffCols from "./ThreeDiffCols.vue";
+    import ThreeDiffCols from "./ThreeDiffCols.vue";
+    import MakeAppointment from "./MakeAppointment.vue";
 
     export default {
         name: "MainSection",
         components: {
-    BrandIntroduction,
-    DoctorsSection,
-    HealthServices,
-    FacilitiesTour,
-    ThreeDiffCols
-}
+            BrandIntroduction,
+            DoctorsSection,
+            HealthServices,
+            FacilitiesTour,
+            ThreeDiffCols,
+            MakeAppointment
+        }
     }
 
 </script>

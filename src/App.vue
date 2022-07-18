@@ -17,9 +17,6 @@
 
       <MainSection/>
 
-      <!-- Make an appointment section -->
-      <!-- title, :after div, text, info request form and "button" -->
-
       <!-- Avada partners section -->
       <!-- Brand partners to show while scrolling (overflow x) -->
     </main>
