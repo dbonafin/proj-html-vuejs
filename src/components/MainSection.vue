@@ -11,10 +11,13 @@
         <HealthServices/>
 
         <!-- Tour our facilities -->
-        <!-- icon, title, :after div, text and play image -->
         <FacilitiesTour/>
-    </section>
 
+        <!-- 3 columns section with different bg colors -->
+        <!-- title, image, text and "button" -->
+        <ThreeDiffCols/>
+    </section>
+    
 </template>
 
 <script>
@@ -23,15 +26,17 @@
     import DoctorsSection from "./DoctorsSection.vue";
     import HealthServices from "./HealthServices.vue";
     import FacilitiesTour from "./FacilitiesTour.vue";
+import ThreeDiffCols from "./ThreeDiffCols.vue";
 
     export default {
         name: "MainSection",
         components: {
-            BrandIntroduction,
-            DoctorsSection,
-            HealthServices,
-            FacilitiesTour
-        }
+    BrandIntroduction,
+    DoctorsSection,
+    HealthServices,
+    FacilitiesTour,
+    ThreeDiffCols
+}
     }
 
 </script>

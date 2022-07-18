@@ -55,7 +55,7 @@
         h2 {
             text-transform: uppercase;
             font-size: 30px;
-            margin: 20px 0;
+            margin: 10px 0;
             &:after {
                 content: '';
                 display: block;

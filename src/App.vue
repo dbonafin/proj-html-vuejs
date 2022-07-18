@@ -17,9 +17,6 @@
 
       <MainSection/>
 
-      <!-- 3 columns section with different bg colors -->
-      <!-- title, image, text and "button" -->
-
       <!-- Make an appointment section -->
       <!-- title, :after div, text, info request form and "button" -->
 
