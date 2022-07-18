@@ -17,8 +17,6 @@
 
       <MainSection/>
 
-      <!-- Avada partners section -->
-      <!-- Brand partners to show while scrolling (overflow x) -->
     </main>
 
     <!-- Here will be the footer section -->

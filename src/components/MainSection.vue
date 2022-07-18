@@ -17,8 +17,11 @@
         <ThreeDiffCols/>
 
         <!-- Make an appointment section -->
-        <!-- title, :after div, text, info request form and "button" -->
         <MakeAppointment/>
+
+        <!-- Avada partners section -->
+        <!-- Brand partners to show while scrolling (overflow x) -->
+        <BrandPartners/>
     </section>
     
 </template>
@@ -31,17 +34,19 @@
     import FacilitiesTour from "./FacilitiesTour.vue";
     import ThreeDiffCols from "./ThreeDiffCols.vue";
     import MakeAppointment from "./MakeAppointment.vue";
+import BrandPartners from "./BrandPartners.vue";
 
     export default {
         name: "MainSection",
         components: {
-            BrandIntroduction,
-            DoctorsSection,
-            HealthServices,
-            FacilitiesTour,
-            ThreeDiffCols,
-            MakeAppointment
-        }
+    BrandIntroduction,
+    DoctorsSection,
+    HealthServices,
+    FacilitiesTour,
+    ThreeDiffCols,
+    MakeAppointment,
+    BrandPartners
+}
     }
 
 </script>

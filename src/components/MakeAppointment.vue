@@ -141,7 +141,7 @@
             input, textarea {
                 width: 100%;
                 margin: 10px 0;
-                padding: 2px 5px;
+                padding: 2px;
                 background-color: transparent;
                 border: 1px solid $txt-secondary-color;
                 color: $txt-secondary-color;
