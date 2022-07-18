@@ -168,8 +168,8 @@
         .color-btn {
             width: 100%;
             background-color: $brand-main-color;
+            transform: rotateX(40deg);
         }
-      
     }
     
 </style>

@@ -20,7 +20,6 @@
         <MakeAppointment/>
 
         <!-- Avada partners section -->
-        <!-- Brand partners to show while scrolling (overflow x) -->
         <BrandPartners/>
     </section>
     
