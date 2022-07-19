@@ -171,6 +171,7 @@
                     p {
                         font-size: 10px;
                         margin: 15px 0;
+                        opacity: calc(0.8);
                     }
                     .socials {
                         svg {

@@ -153,7 +153,8 @@
                 margin: 10px 0;
             }
             p {
-                font-size: 10px;
+                font-size: 11px;
+                opacity: calc(0.7);
             }
             }
         }

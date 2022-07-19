@@ -56,7 +56,7 @@
                             <div class="form-group">
                                 <label for="inputDate">Date</label>
                                 <input 
-                                    type="date" 
+                                    type="text" 
                                     class="form-control" 
                                     id="inputDate"
                                     placeholder="Appointment Date"

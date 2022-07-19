@@ -45,13 +45,13 @@
                     <span class="contacts-icon">
                         <font-awesome-icon icon="fa-solid fa-location-dot"/>
                     </span>
-                    <span>121 King Street, London United Kingdom</span>
+                    <span class="gray-opa"> 121 King Street, London United Kingdom</span>
                 </div>
                 <div>
                     <span class="contacts-icon">
                         <font-awesome-icon icon="fa-solid fa-phone-flip"/>
                     </span>
-                    <span>1.800.458.556</span>
+                    <span class="gray-opa">1.800.458.556</span>
                 </div>
             </div>
 
@@ -145,16 +145,23 @@ export default {
             .socials {
                 margin: 30px 0;
             }
+            p {
+                opacity: calc(0.6);
+            }
         }
         // Contact column styles
         .contacts {
             span {
                 font-size: 12px;
+                margin: 0 10px;
             }
             .contacts-icon {
                 margin: 0 5px;
                 color: $brand-main-color;
             }
+              .gray-opa {
+                    opacity: calc(0.6);
+                }
         }
         // Navigation column styles
         .navigation {
@@ -197,6 +204,7 @@ export default {
         background-color: $bg-secondary-color;
         padding: 10px 0;
         font-size: 12px;
+        opacity: calc(0.6);
         .copy-text {
             border-right: 1px solid gray;
             padding: 0 10px;

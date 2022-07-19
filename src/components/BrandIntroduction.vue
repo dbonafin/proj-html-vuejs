@@ -88,8 +88,12 @@
                 width: 70px;
             }
             h3 {
+                opacity: calc(0.7);
                 text-transform: uppercase;
                 margin-bottom: 10px;
+            }
+            p {
+                opacity: calc(0.7);
             }
         }
     }
